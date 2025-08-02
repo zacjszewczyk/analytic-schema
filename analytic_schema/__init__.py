@@ -1,4 +1,8 @@
 # analytic_schema/__init__.py
+
+import warnings
+warnings.warn("analytic-schema is deprecated; use contract-schema instead", DeprecationWarning)
+
 from .loader    import INPUT_SCHEMA, OUTPUT_SCHEMA, SCHEMA_PATH, SCHEMA_VERSION
 from .parser    import parse_input
 from .validator import validate_input, SchemaError
