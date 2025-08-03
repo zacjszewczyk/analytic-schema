@@ -1,5 +1,7 @@
 # Analytic Schema
 
+**Note:** This project has been discontinued. Please use [Contract schema](https://github.com/zacjszewczyk/contract-schema/).
+
 Analytic Schema is a lightweight Python package for loading, validating, and building standardized I/O documents for analytics notebooks based on a single, versioned JSON contract that drives both input parsing and output construction.
 
 ## Table of Contents
